@@ -1,6 +1,9 @@
 import RPi.GPIO as GPIO
 import time
 
+# Program to test simple motor control using the RB-Wav-77
+# RPi Motor Driver Board from RobotShop.
+
 # The following define indices for the two motors:
 LEFT = 0
 RIGHT = 1
