@@ -42,7 +42,7 @@ def stop(motor):
     GPIO.output(MOTOR_PINS[motor][0], 0)
     GPIO.output(MOTOR_PINS[motor][1], 0)
 
-# Tells the specified motor to turn a a specified speed between -100 and 100:
+# Tells the specified motor to turn a specified speed between -100 and 100:
 def speed(motor, speedVal):
     # Set appropriate direction:
     if speedVal < 0:
