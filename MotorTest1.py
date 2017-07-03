@@ -24,7 +24,7 @@ MOTOR_PINS = [ [20, 21, 26], [6, 13, 12] ]
 #    1     0  Forward
 #    1     1  Stopped
 
-# The PWN frequency:
+# The PWM frequency:
 FREQ = 500
 
 # Tells the specified motor to move in forward direction:
